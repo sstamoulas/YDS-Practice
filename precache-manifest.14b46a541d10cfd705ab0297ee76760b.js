@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "30ede5a30c5813b3f72322edd6a81db6",
+    "revision": "ff45c6f46aeea7186094298c46cddc41",
     "url": "/YDS-Practice/index.html"
   },
   {
-    "revision": "cf2dd2b4efad57638cdc",
+    "revision": "927f52845cc6b466fb1a",
     "url": "/YDS-Practice/static/css/main.f6efe452.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/YDS-Practice/static/js/2.6c51a41f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cf2dd2b4efad57638cdc",
-    "url": "/YDS-Practice/static/js/main.f14847d3.chunk.js"
+    "revision": "927f52845cc6b466fb1a",
+    "url": "/YDS-Practice/static/js/main.68888502.chunk.js"
   },
   {
     "revision": "043795f4729542535e7b",
