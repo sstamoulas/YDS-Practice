@@ -448,7 +448,7 @@ const DATA = [
         number: 36,
         answer: 1,
         question: '----, he was foremost an inventor and more interested in attracting public interest in his work than advancing scientific knowledge.',
-        chocies: [
+        choices: [
           'When the philosopher Alfred North Whitehead famously credited Thomas Edison with the discovery of a method of invention',
           'While Thomas Edison saw himself as a member of the larger scientific community and presented papers before the National Academy of Sciences',
           'As Thomas Edison began his inventive career by becoming a contract inventor in the telegraph industry after working as a telegraph operator in the mid-1860s',
