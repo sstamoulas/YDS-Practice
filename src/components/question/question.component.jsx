@@ -8,7 +8,7 @@ class Question extends Component {
   constructor() {
     super();
 
-    let randomSectionIndex = 14;
+    let randomSectionIndex = 0;
     let randomQuestionIndex = 0;
 
     this.state = {
@@ -20,7 +20,7 @@ class Question extends Component {
   }
 
   handleClick = () => {
-    let { directions, text, questions } = this.state.data[this.state.randomSectionIndex];
+    let { questions } = this.state.data[this.state.randomSectionIndex];
     let randomSectionIndex = this.state.randomSectionIndex;
     let randomQuestionIndex = this.state.randomQuestionIndex;;
 
@@ -51,12 +51,12 @@ class Question extends Component {
 
   render() {
     let { directions, text, questions } = this.state.data[this.state.randomSectionIndex];
-    let { number, answer, question, choices } = this.state.data[this.state.randomSectionIndex].questions[this.state.randomQuestionIndex];
+    let { number, answer, question, choices } = questions[this.state.randomQuestionIndex];
     let isDialogue = question.includes('\n');
 
     return (
       <div className="container">
-        <h3>{number})Directions: {directions}</h3>
+        <h3>{number}) Directions: {directions}</h3>
         {
           isDialogue ?
             <p dangerouslySetInnerHTML={{__html: question.replace(/\n/g, '<br/>')}}></p>
@@ -74,7 +74,7 @@ class Question extends Component {
             <li key={index}>{choice}</li>
           ))
         }
-        <span className={this.state.showSolution ? 'active solution' : 'not-active'} >Answer: {choices[answer]}</span>
+        <span className={this.state.showSolution ? 'active solution' : 'not-active solution'} >Answer: {choices[answer]}</span>
         <div className="center-content">
           <button className="btn" onClick={this.showSolution}>Show Solution</button>
           <button className="btn" onClick={this.handleClick}>New Question</button>
