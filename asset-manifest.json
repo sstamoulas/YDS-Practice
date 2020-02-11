@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/YDS-Practice/static/css/main.41f62878.chunk.css",
-    "main.js": "/YDS-Practice/static/js/main.f1c77fe4.chunk.js",
-    "main.js.map": "/YDS-Practice/static/js/main.f1c77fe4.chunk.js.map",
+    "main.css": "/YDS-Practice/static/css/main.ba8fe9f8.chunk.css",
+    "main.js": "/YDS-Practice/static/js/main.e1570a86.chunk.js",
+    "main.js.map": "/YDS-Practice/static/js/main.e1570a86.chunk.js.map",
     "runtime-main.js": "/YDS-Practice/static/js/runtime-main.27ceae62.js",
     "runtime-main.js.map": "/YDS-Practice/static/js/runtime-main.27ceae62.js.map",
     "static/js/2.7af53cbe.chunk.js": "/YDS-Practice/static/js/2.7af53cbe.chunk.js",
     "static/js/2.7af53cbe.chunk.js.map": "/YDS-Practice/static/js/2.7af53cbe.chunk.js.map",
     "index.html": "/YDS-Practice/index.html",
-    "precache-manifest.025479dfb903c49d4fb3de033f873e55.js": "/YDS-Practice/precache-manifest.025479dfb903c49d4fb3de033f873e55.js",
+    "precache-manifest.3d3b444860c9dfa5bfa11be742eac211.js": "/YDS-Practice/precache-manifest.3d3b444860c9dfa5bfa11be742eac211.js",
     "service-worker.js": "/YDS-Practice/service-worker.js",
-    "static/css/main.41f62878.chunk.css.map": "/YDS-Practice/static/css/main.41f62878.chunk.css.map",
+    "static/css/main.ba8fe9f8.chunk.css.map": "/YDS-Practice/static/css/main.ba8fe9f8.chunk.css.map",
     "static/js/2.7af53cbe.chunk.js.LICENSE.txt": "/YDS-Practice/static/js/2.7af53cbe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.27ceae62.js",
     "static/js/2.7af53cbe.chunk.js",
-    "static/css/main.41f62878.chunk.css",
-    "static/js/main.f1c77fe4.chunk.js"
+    "static/css/main.ba8fe9f8.chunk.css",
+    "static/js/main.e1570a86.chunk.js"
   ]
 }
