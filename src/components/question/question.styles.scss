@@ -41,3 +41,11 @@
 .solution {
   padding: 10px;
 }
+
+.text-transition {
+  transition: color .5s ease-in-out;
+}
+
+body {
+  transition: background-color .5s ease-in-out;
+}
