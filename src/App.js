@@ -5,10 +5,7 @@ import HomePage from './pages/home-page.component';
 
 import './App.css';
 
-function initializeReactGA() {
-    ReactGA.initialize('UA-158180736-1');
-    ReactGA.pageview('/homepage');
-}
+ReactGA.initialize('UA-158180736-1');
 
 function App() {
   return (
