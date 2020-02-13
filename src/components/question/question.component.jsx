@@ -2,22 +2,27 @@ import React, { Component } from 'react';
 
 import './question.styles.scss';
 
-import DATA from './question.data.js';
-
 class Question extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
 
     let randomSectionIndex = 0;
     let randomQuestionIndex = 0;
 
     this.state = {
-      data: DATA,
+      data: props.questions,
       randomSectionIndex: randomSectionIndex,
       randomQuestionIndex: randomQuestionIndex,
       showSolution: false,
       textColor: 'black',
     };
+  }
+
+  componentDidMount() {
+    let bodyTag = document.getElementsByTagName("body")[0];
+    let randomColor = this.generateRandomColor();
+
+    bodyTag.style.backgroundColor = randomColor;
   }
 
   generateRandomNumber = (length) => {
