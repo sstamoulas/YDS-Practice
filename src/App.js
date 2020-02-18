@@ -2,7 +2,8 @@ import React from 'react';
 import ReactGA from 'react-ga';
 import {
   Switch,
-  Route
+  Route,
+  useLocation
 } from "react-router-dom";
 
 import HomePage from './pages/home-page/home-page.component';
@@ -12,13 +13,14 @@ import './App.css';
 
 import DATA from './components/question/question.data.js';
 
-function initializeReactGA() {
-    ReactGA.initialize('UA-158180736-1');
-    ReactGA.pageview('/homepage');
+function initializeReactGA(page) {
+  ReactGA.initialize('UA-158180736-1');
+  ReactGA.pageview(page);
 }
 
 function App() {
-  initializeReactGA();
+  let location = useLocation();
+  initializeReactGA(location.pathname);
   const exams = DATA.map(dataItem => dataItem.routeName);
   return (
     <div>
